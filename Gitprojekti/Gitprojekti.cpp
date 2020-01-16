@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+//markus_dev
 
 int summa(int, int);
 
@@ -15,7 +16,7 @@ int main()
     cout << "(2) -" << endl;
     cout << "(3) *" << endl;
     cout << "(4) /" << endl;
-
+    
     cin >> toiminto;
 
     if (toiminto == 1) {
