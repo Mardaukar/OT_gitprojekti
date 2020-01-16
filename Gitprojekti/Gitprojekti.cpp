@@ -2,6 +2,7 @@
 using namespace std;
 
 int summa(int, int);
+int erotus(int, int);
 
 int main()
 {
@@ -21,8 +22,8 @@ int main()
     if (toiminto == 1) {
         cout << summa(a, b) << endl;
     }
-    else if (toiminto == 2) {
-        //miinus
+    else if (toiminto == 2) { // Gamze
+		cout << erotus(a, b) << endl;
     }
     else if (toiminto == 3) {
         //kerto
@@ -36,4 +37,8 @@ int main()
 
 int summa(int a, int b) {
     return a + b;
+}
+
+int erotus(int a, int b) {
+	return a - b;
 }
