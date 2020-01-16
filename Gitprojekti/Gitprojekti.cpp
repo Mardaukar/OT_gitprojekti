@@ -30,7 +30,7 @@ int main()
     else {
         //jako
     }
-
+	// Gamzen kommentti
     system("pause");
 }
 
