@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//markus_dev
+//gitissa tehty kommentti
 
 int summa(int, int);
 int erotus(int, int);
