@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
-//gitissa tehty kommentti
 
 int summa(int, int);
 int erotus(int, int);
+int jako(int, int);
 int kerto(int, int);
 
 int main()
@@ -21,19 +21,19 @@ int main()
     
     cin >> toiminto;
 
-    if (toiminto == 1) {
+    if (toiminto == 1) { //Markus
         cout << summa(a, b) << endl;
     }
     else if (toiminto == 2) { // Gamze
 		cout << erotus(a, b) << endl;
     }
-    else if (toiminto == 3) {
+    else if (toiminto == 3) { //Sara
 		cout << kerto(a, b) << endl;
     }
-    else {
-        //jako
+    else if (toiminto == 4) { //Hilda
+		cout << jako(a, b) << endl;
     }
-	// Gamzen kommentti **
+
     system("pause");
 }
 
@@ -45,6 +45,10 @@ int erotus(int a, int b) {
 	return a - b;
 }
 
+int jako(int a, int b) {
+	return a / b;
+}
+  
 int kerto(int a, int b) {
 	return a * b;
 }
