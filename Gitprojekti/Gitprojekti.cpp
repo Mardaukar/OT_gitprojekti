@@ -4,6 +4,7 @@ using namespace std;
 
 int summa(int, int);
 int erotus(int, int);
+int jako(int, int);
 
 int main()
 {
@@ -29,8 +30,8 @@ int main()
     else if (toiminto == 3) {
         //kerto
     }
-    else {
-        //jako
+    else if (toiminto == 4) {
+		cout << jako(a, b) << endl;
     }
 	// Gamzen kommentti **
     system("pause");
@@ -42,4 +43,8 @@ int summa(int a, int b) {
 
 int erotus(int a, int b) {
 	return a - b;
+}
+
+int jako(int a, int b) {
+	return a / b;
 }
