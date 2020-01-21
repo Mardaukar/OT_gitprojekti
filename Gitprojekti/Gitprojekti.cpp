@@ -4,6 +4,7 @@ using namespace std;
 
 int summa(int, int);
 int erotus(int, int);
+int kerto(int, int);
 
 int main()
 {
@@ -27,7 +28,7 @@ int main()
 		cout << erotus(a, b) << endl;
     }
     else if (toiminto == 3) {
-        //kerto
+		cout << kerto(a, b) << endl;
     }
     else {
         //jako
@@ -42,4 +43,8 @@ int summa(int a, int b) {
 
 int erotus(int a, int b) {
 	return a - b;
+}
+
+int kerto(int a, int b) {
+	return a * b;
 }
